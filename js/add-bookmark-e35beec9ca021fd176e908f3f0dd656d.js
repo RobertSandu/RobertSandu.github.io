@@ -1,0 +1,1 @@
+function join_favorite(a,t){try{document.all?window.external.addFavorite(a,t):window.sidebar?window.sidebar.addPanel(t,a,""):alert("当前使用浏览器需要使用 Ctrl+D 快捷键添加书签！")}catch(a){alert("当前使用浏览器需要使用 Ctrl+D 快捷键添加书签！")}}
